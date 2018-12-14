@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @media screen and (max-width:767px){
+
+.container{
+width:500px;
+
+}
+
+.margin-bottom{
+margin-bottom:45px;
+
+}
+footer .nav{
+display:none;
+
+}
+footer .copyright{
+text-align:center;
+}
+
+.top_bar ul li{
+padding:0 2px;
+}
+.top_bar ul li form {
+display:none;
+
+}
+.nav-expanded{
+ display:block !important;
+
+}
+.top_bar ul li a{
+
+
+}
+.left_link{
+padding-left:0px;
+}
+.right_link{
+padding-right:0px;
+}
+
+
+#navbar ul li:hover ul{
+display:none;
+
+}
+
+
+#navbar ul ul.sub_nav{
+width:100%;
+
+}
+
+
+#navbar ul ul.sub_nav{
+position:static;
+
+}
+li a span.sub_navli:after{
+content:"\f053";
+font-family:"fontawesome";
+float:right;
+font-size:15px;
+
+
+
+}
+li a.open span.sub_navli:after{
+content:"\f078";
+font-family:"fontawesome";
+
+
+
+}
+#navbar ul li{
+border:1px solid rgba(206, 206, 206, 0.2);
+
+
+}
+.call_us{
+top:95px;
+
+
+}
+.form_wrapper{
+padding-left:23px;
+padding-right:23px;
+
+
+}
+#navbar ul ul.sub_nav::before{
+border:none;
+
+
+}
+.col-sm-5_new {
+    width: 41.6667%;
+	float:left;
+}
+.col-sm-7_new {
+    width: 58.3333%;
+	float:left;
+}
+.cart h2{
+margin-top: 31px;
+font-size:22px;
+
+}
+.cart p.quantity{
+margin-top:22px;
+
+}
+.text{
+
+margin-top: 39px;
+}
+.text p{
+font-size:13px;
+
+}
+ul.social {
+margin-top:12px;
+
+}
+.margin-top{
+margin-top:20px;
+}
+/********************************************************modal-responsive********************************************************/
+.form-group{
+display:inline-flex;
+}
+
+
+.modal-dialog{
+width:600px;
+
+}
+label.checkbox{
+margin-left:20px;
+margin-right:10px;
+
+}
+/********************************************************modal-responsive********************************************************/
+}
+/********************************************************modal-responsive********************************************************/
+@media screen and (max-width:630px){
+.modal-dialog{
+width:500px;
+
+}
+.modal input[type="text"], .modal input[type="password"]{
+width:125px;
+
+}
+label.checkbox{
+font-size:13px;
+
+}
+
+
+}
+@media screen and (max-width:520px){
+.modal-dialog{
+width:300px;
+
+}
+.form-group{
+display:block;
+
+}
+.modal input[type="text"], .modal input[type="password"]{
+width:185px;
+
+}
+.modal input[type="text"]{
+margin-bottom:10px;
+
+}
+.btn-success{
+padding:8px 25px;
+
+}
+/********************************************************modal-responsive********************************************/
+
+}
+
+
+
+
+@media screen and (max-width:535px){
+.container{
+width:400px;
+
+}
+.top_bar ul li a{
+font-size:11px;
+
+}
+
+
+}
+
+
+@media screen and (max-width:431px){
+.container{
+width:300px;
+
+}
+.top_bar ul li a span.text_link{
+display:none;
+
+}
+.top_bar ul li a{
+font-size:16px;
+
+}
+.item h2{
+font-size:32px;
+
+}
+.item h3{
+font-size:23px;
+}
+a.nav_toggle{
+width:32px;
+height:32px;
+line-height:28px;
+
+}
+a.nav_toggle i{
+font-size:14px;
+
+
+}
+a.nav_toggle:before{
+left:-18px;
+top:6px;
+
+
+
+}
+.cost_details{
+padding-right:20px !important;
+
+
+}
+.cost_details ul{
+padding-left:20px;
+
+}
+.cost_details ul li{
+font-size:11px;
+
+}
+.cost_details a.btn{
+margin-left:20px !important;
+
+
+}
+.col-sm-7_new{
+width:100%;
+
+
+}
+.col-sm-5_new{
+width:100%;
+
+
+}
+}
+@media screen and (max-width:301px){
+.container{
+width:250px;
+
+}
+.modal-dialog{
+width:220px;
+
+
+}
+.call_us{
+width:200px;
+margin-right:-200px;
+
+}
+.datepicker{
+width:73%;
+font-size:11px;
+
+}
+.form_wrapper{
+padding-left:7px;
+padding-right:7px;
+
+}
+p.quantity .btn{
+padding: 6px 5px;
+font-size:12px;
+
+}
+.cart p.quantity .btn-danger{
+margin-left:10px;
+
+}
+.cart h2{
+font-size:18px;
+
+}
+
+}
+@media screen and (max-width:251px){
+.container{
+width:220px;
+
+}
+.gallery{
+display:none;
+
+}
+.cart p.quantity .btn-danger{
+margin-left:0px;
+margin-top:15px;
+}
+.cost_details{
+padding-right:11px !important;
+
+}
+.cost_details ul{
+padding-left:11px !important;
+
+}
+
+}
+@media screen and (min-width:521px) and (max-width:535px){
+.col-sm-6_new{
+width:100%;
+
+}
+
+
+
+}
+@media screen and (min-width:432px) and (max-width:535px){
+.cart p.quantity .btn-danger{
+margin-top:20px;
+margin-left:0px;
+}
+.cart h2{
+font-size:18px;
+
+}
+
+}

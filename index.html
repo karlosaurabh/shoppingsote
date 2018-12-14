@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    
+
+    <title>eshoppy</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+  <section class="header_top">
+  <div class="container">
+  <div class="row top_bar">
+  
+  <div class="col-sm-6 col-xs-6 left_link">
+  <ul><li><a href="#" title="phone"><i class="fa fa-phone"></i><span class="text_link">+1234567890</span></a></li>
+  <li><a href="#" title="email"><i class="fa fa-envelope"></i><span class="text_link">info@gmail.com</span></a></li>
+  </ul>
+  </div>
+  <div class="col-sm-6 col-xs-6 right_link">
+  <ul class="pull-right"><li><a href="cart.html" title="cart"><i class="fa fa-shopping-cart"></i><span class="text_link">Cart</span></a></li>
+  <li><a href="#" title="login" data-toggle="modal" data-target="#modalone"><i class="fa fa-lock"></i><span class="text_link">Login</span></a></li>
+  <li><form action="">
+  <input type="text" id="search" name="search" placeholder="Search"/>
+   <input type="submit" id="submit" name="submit" value="" />
+  </form></li>
+  </ul></div>
+ 
+  </div><!--row top_bar-->
+ </div><!--container-->
+ </section><!--header_top-->
+ <section>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse no_padding">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#category">Category<span class="sub_navli"></span></a>
+            <ul class="sub_nav">
+            <li><a href="#">Item Number 1</a></li>
+            <li><a href="#">Item Number 2</a></li>
+            <li><a href="#">Item Number 3</a></li>
+            <li><a href="#">Item Number 4</a></li>
+            </ul>
+            </li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+            <li><a href="#blog">Blog <!--<span class="sub_navli"></span>--></a>
+            <!--<ul class="sub_nav">
+            <li><a href="#">Item Number 1 </a></li>
+            <li><a href="#">Item Number 2</a></li>
+            <li><a href="#">Item Number 3</a></li>
+            <li><a href="#">Item Number 4</a></li>
+            </ul>-->
+            
+            </li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+     <!--carousel-->
+     <div class="slider">
+     <div class="container">
+     <div class="row">
+     <div class="col-sm-12">
+    <div class="carousel slide" data-ride="carousel" id="slideshow">
+    <ol class="carousel-indicators">
+    <li class="active" data-target="#slideshow" data-slide-to="0"></li>
+    <li data-target="#slideshow" data-slide-to="1"></li>
+    <li data-target="#slideshow" data-slide-to="2"></li>
+    <li data-target="#slideshow" data-slide-to="3"></li>
+    
+    
+    </ol>
+    <div class="carousel-inner">
+    <div class="item active">
+    <div class="col-sm-6">
+    <img src="images/banner1.png" alt="banner1" />
+    </div>
+    <div class="col-sm-6">
+    <h2>EShoppy</h2>
+    <h3>An Amazing Experience</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    </div><!--end item-->
+       <div class="item ">
+       <div class="col-sm-6">
+    <img src="images/banner2.png" alt="banner2" />
+    </div>
+    <div class="col-sm-6">
+    <h2>EShoppy</h2>
+    <h3>Shopping is a fun..</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+    </div>
+    </div><!--end item-->
+    <div class="item ">
+       <div class="col-sm-6">
+    <img src="images/banner1.png" alt="banner1" />
+    </div>
+    <div class="col-sm-6">
+    <h2>EShoppy</h2>
+    <h3>An Amazing Experience</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+    </div>
+    </div><!--end item-->
+    <div class="item ">
+       <div class="col-sm-6">
+    <img src="images/banner2.png" alt="banner2" />
+    </div>
+    <div class="col-sm-6">
+    <h2>EShoppy</h2>
+    <h3>Shopping is a fun..</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.font-family:Arial, Helvetica, sans-serif; </p>
+    </div>
+    </div><!--end item-->
+       
+      
+    <a class="left control-carousel hidden-xs" data-slide="prev" href="#slideshow">
+<i class="fa fa-angle-left"></i>
+</a>
+    <a class="right control-carousel hidden-xs" data-slide="next" href="#slideshow">
+<i class="fa fa-angle-right"></i>
+</a>
+    </div><!--end carousel-inner-->
+    
+    
+    </div>
+    </div>
+     </div>
+     </div>
+     </div>
+    <!--end carousel-->
+    </section>
+   <section>
+    <div class="container">
+    <h2 class="title">FEATURED PRODUCTS</h2>
+    
+    <div class="row product_container">
+    <div class="col-sm-3 col-xs-6 product margin-bottom"><img src="images/img1.jpg" alt="img1"/>
+    <div class="overlay">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img1_b.jpg" alt="img1_b"/>
+    </div>
+    </div>
+    <div class="col-sm-3 col-xs-6 product margin-bottom"><img src="images/img2.jpg" alt="img2"/><div class="overlay2">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img2_b.jpg" alt="img2_b"/>
+    </div></div>
+    
+    <div class="col-sm-3 col-xs-6 product"><img src="images/img3.jpg" alt="img3"/>
+    <div class="overlay3">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img3_b.jpg" alt="img3_b"/>
+    </div></div>
+    <div class="col-sm-3 col-xs-6 product"><img src="images/img4.jpg" alt="img4"/>
+    <div class="overlay4">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img4_b.jpg" alt="img2_b"/>
+    </div></div>
+    <div style="clear:both"></div>
+    <div class="space">&nbsp;</div>
+    <div class="col-sm-3 col-xs-6 product margin-bottom"><img src="images/img1.jpg" alt="img1"/>
+    <div class="overlay2">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img1_b.jpg" alt="img1_b"/>
+    </div></div>
+    <div class="col-sm-3 col-xs-6 product margin-bottom"><img src="images/img2.jpg" alt="img2"/>
+    <div class="overlay3">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img2_b.jpg" alt="img2_b"/>
+    </div></div>
+    <div class="col-sm-3 col-xs-6 product"><img src="images/img3.jpg" alt="img3"/>
+    <div class="overlay4">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img3_b.jpg" alt="img3_b"/>
+    </div></div>
+    <div class="col-sm-3 col-xs-6 product"><img src="images/img4.jpg" alt="img4"/>
+    <div class="overlay">
+    <a class="btn btn-danger" href="product details.html"><i class="fa fa-cart-plus"></i></a>
+    <img src="images/img4_b.jpg" alt="img4_b"/>
+    </div></div>
+    </div>
+     <div class="space">&nbsp;</div> 
+     <h2 class="title">LATEST  PRODUCTS</h2>
+     <div class="carousel slide" data-ride="carousel" id="slideshow2">
+     <div class="carousel-inner">
+     
+     <div class="item active">
+     <div class="row">
+     <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img1.jpg" alt="img1"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img2.jpg" alt="img2"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img3.jpg" alt="img3"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img4.jpg" alt="img4"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img"><img src="images/img1.jpg" alt="img1"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img"><img src="images/img2.jpg" alt="img2"/></div>
+    </div>
+    </div>
+    <div class="item">
+     <div class="row">
+     <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img1.jpg" alt="img1"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img2.jpg" alt="img2"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img3.jpg" alt="img3"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img margin-bottom"><img src="images/img4.jpg" alt="img4"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img"><img src="images/img1.jpg" alt="img1"/></div>
+    <div class="col-sm-2 col-xs-6 slidemulti_img"><img src="images/img2.jpg" alt="img2"/></div>
+    </div>
+    </div>
+    <a class="left item-control hidden-xs" data-slide="prev" href="#slideshow2">
+<i class="fa fa-angle-left"></i>
+</a>
+    <a class="right item-control hidden-xs" data-slide="next" href="#slideshow2">
+<i class="fa fa-angle-right"></i>
+</a>
+    </div><!--carousel-inner-->
+    </div>
+    <div class="space">&nbsp;</div> 
+    <div class="row">
+    <div class="col-sm-12 add"><img src="images/add-banner.jpg" /></div>
+    </div>
+    </div><!--container -->
+    <div class="space">&nbsp;</div>
+    </section>
+    
+    <section>
+   <div class="bottom">
+   
+   <div class="container">
+   <div class="row">
+  
+   <div class="col-sm-4">
+   <h4>About Us</h4>
+   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean</p>
+   <address><i class="fa fa-location-arrow"></i><p>Address: Neelgiri Chauraha,<br />
+Teri Pulia Alambagh,<br />
+Lucknow.</p><br />
+<i class="fa fa-envelope"></i><p>Email:info@hotelbook.com</p><br />
+<i class="fa fa-phone"></i><p>Phone:91-12345678<p>
+</address>
+   
+   </div>
+    <div class="col-sm-4">
+    <h4>FOLLOW US</h4>
+    <ul class="follow"><li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+    <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+     <h4 class="news">NEWSLETTER SUBSCRIBE </h4>
+    <form action="">
+    <input type="text" placeholder="Email Address" id="email" name="email"  required="required"/>
+    <input type="submit" id="subscribe" name="subscribe" class="btn btn-custom btn-block" value="Subscribe Now" />
+    </form>
+    </div>
+     <div class="col-sm-4 gallery">
+     
+     <h4>GALLERY</h4>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb1.jpg" alt="thumb1" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb2.jpg" alt="thumb2" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb3.jpg" alt="thumb3" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb4.jpg" alt="thumb4" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb1.jpg" alt="thumb1" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb2.jpg" alt="thumb2" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb3.jpg" alt="thumb3" /></div>
+     <div class="col-sm-3 col-xs-3"><img src="images/thumb4.jpg" alt="thumb4" /></div>
+     </div>
+     
+     </div><!--row-->
+     </div><!--container-->
+     
+     </div><!--bottom-->
+    </section>
+    <!--modal login--> <div class="modal fade" id="modalone">
+      <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+      <i class="icon-remove fa fa-times" aria-hidden="true" data-dismiss="modal"></i>
+      <h4 class="modal-title">Login Form</h4>
+      </div><!--modal-header-->
+      <div class="modal-body">
+      <form action="" class="form-inline">
+      <div class="form-group">
+      <label for="user name" class="sr-only">User Name</label>
+      <input type="text" name="uname" id="uname" placeholder="User Name" class="input-sm" required="required"/>
+      <label for="password" class="sr-only">Password</label>
+      <input type="password" name="pword" id="pword" placeholder="Password" class="input-sm" required="required"/>
+      <label class="checkbox"> <input type="checkbox" id="remember"> Remember Me </label>
+      <a href="#" class="btn btn-danger">Login</a>
+      </div>
+      
+      </form>
+      <a href="#" class="forgot">Forgot Password?</a>
+      <a href="register.html" class="account">Create An Account</a>
+       </div>
+      
+      </div><!--modal-content-->
+      </div><!--modal-dialog-->
+      </div>  <!--modal-->
+      
+       <!--modal login-->
+       <!--contact us box in the bottom-->
+       
+       <!--<div class="call_us">
+       <div class="header">  
+       <h4>Contact Us</h4>
+       </div>
+       <div class="body">
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, </p>
+       
+       
+       
+       </div>
+       
+     
+       
+       
+       </div>-->
+       
+       
+       
+       <!--contact us box in the bottom-->
+       
+       <!--contact us box at right side-->
+       
+       <div class="call_us">
+       <div class="header">  
+       <h4>Contact Us</h4>
+       </div>
+       <div class="body">
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+       <form action="">
+       <div class="col-sm-12 form-group">
+    <label for="user name" class="sr-only">User Name</label>
+    <input type="text" id="uname" name="uname" placeholder="User Name" class="form_style" />
+    </div>
+    <div class="col-sm-12 form-group">
+    <label for="email" class="sr-only">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email" class="form_style" />
+    </div>
+    <div class="col-sm-12 form-group">
+    <textarea id="message" name="message" class="form_style" placeholder="Message"></textarea>
+    
+    </div>
+    <div class="form-group col-sm-12">
+    <input type="submit" class="btn btn-danger btn-sm " id="submit" name="submit" value="Submit"/>
+    </div>
+      </form> 
+       
+       </div>
+       
+       <a href="#" class="nav_toggle"><i class="fa fa-comment"></i></a>
+      
+       
+       
+       </div>
+       
+       
+       
+       <!--contact us box at right side-->
+       <div class="clearfix"></div>
+    <footer>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-4 copyright"><p><a href="#">copyright by www.xyz.com</a></p></div>
+    <div class="col-sm-8">
+    <ul class="nav nav-pills pull-right">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Category</a></li>
+    <li><a href="#">Shopping Cart</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact Us</a></li>
+    
+    
+    </ul>
+    </div>
+    </div>
+    
+    
+    </div>
+    
+    </footer>
+  
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+   
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+	$(document).ready(function(){
+	$('#navbar ul li').click(function(){
+	$(this).find('ul.sub_nav').slideToggle(400, function(){
+	$(this).toggleClass('nav-expanded').css('display', '');
+	
+	});
+	
+	});
+	$('#navbar ul li a').click(function(){
+	$(this).toggleClass('open');
+	
+	});
+	/*******************************contact us box in the bottom**********************************************/
+	/*$('.header').click(function(){
+	$('.body').slideToggle();
+	
+	});
+	$('.header').click(function(){
+	$(this).toggleClass('open');
+	});
+	$('.call_us .header').mouseover(function(){
+	$(this).addClass('change');
+	});
+	$('.call_us .header').mouseout(function(){
+	$(this).removeClass('change');
+	});*/
+	/*******************************contact us box in the bottom**********************************************/
+	$('a.nav_toggle').click(function(e){
+	  e.preventDefault();
+	  $(this).parent().toggleClass('open');
+	
+	});
+	
+	});
+	
+	</script>
+    
+  </body>
+</html>
